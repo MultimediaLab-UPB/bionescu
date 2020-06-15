@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from campus.pub.ro/lab7/bionescu/SynPose300.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jun 2020 19:06:41 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prof. Dr.-Ing. Habil. Bogdan IONESCU, Coordinator of the Multimedia Lab @ CAMPUS-UPB (The Center for Advanced Research on New Materials, Products and Innovative Processes) and Coordinator of the Video Processing Group @ LAPI-ETTI-UPB Department of Applied Electronics and Information Engineering, Faculty of Electronics, Telecommunications and Information Technology (ETTI) from University "Politehnica" of Bucharest (UPB) - Romania. Research interests: video/image processing and analysis, multimedia retrieval, computer vision based human-computer interaction and software engineering." />
+    <link rel="shortcut icon" href="images/icons/favicon.ico" type="image/x-icon; charset=binary" />
+    <title>Datasets - SynPose300</title>
+
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.css" rel="stylesheet" type="text/css">
+    <link href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- /Stylesheets -->
+
+    <!-- Core JS files -->
+    <script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+    <!-- /Core JS files -->
+
+    <!-- Theme JS files -->
+    <script type="text/javascript" src="assets/js/core/app.js"></script>
+    <!-- Ttheme JS files -->
+
+    <style type="text/css">
+        ol {
+            counter-reset: list;
+            margin: 6px;
+        }
+
+        ol > li {
+            list-style: none;
+            position: relative;
+        }
+
+        ol > li:before {
+            counter-increment: list;
+            content: "[" counter(list, decimal) "].";
+            position: absolute;
+            left: -1.4em;
+            text-indent: -1em;
+        }
+    </style>
+    <!--/List numbering formatter-->
+</head>
+
+<body class="layout-boxed" style="letter-spacing: 0.5px" ;>
+
+    <!-- Page container -->
+    <div class="page-container">
+
+        <!-- Page content -->
+        <div class="page-content">
+
+            <!-- Left sidebar -->
+            <div class="sidebar sidebar-main sidebar-fixed">
+                <div class="sidebar-content">
+
+                    <!-- Sidebar Logo-->
+                    <div class="sidebar-user">
+                        <div class="category-content">
+                            <div class="media">
+                                <a href="http://campus.pub.ro/" class="media-left"><img src="images/logo_campus_fullsize.jpg" class="img-sm" alt="center"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Sidebar Logo-->
+
+                    <!-- Sidebar items -->
+                    <div class="sidebar-category sidebar-category-visible">
+                        <div class="category-content no-padding">
+                            <ul class="navigation navigation-main navigation-accordion">
+
+                                <!-- Main -->
+                                <li><a href="index.html"><span>Home</span></a></li>
+                                <li><a href="cv.html"><span>Curriculum Vitae</span></a></li>
+                                <li>
+                                    <a href="#"><span>Courses</span></a>
+                                    <ul>
+                                        <li><a href="courses.html#c_language">Computer Programming Fundamentals: C Language</a></li>
+                                        <li><a href="courses.html#sda">Data Structures and Algorithms in C</a></li>
+                                        <li><a href="courses.html#tapai">Advanced Image Processing and Analysing</a></li>
+                                        <li><a href="courses.html#apv">Video Analysis and Processing - Video Indexing</a></li>
+                                        <li><a href="courses.html#tacai">Data Analysis and Machine Learning</a></li>
+                                        <li><a href="courses.html#cg">Geometric Camera Calibration</a></li>
+                                        <li><a href="courses.html#pcdpi">How to Write a Consistent Research Report - Quick Guide</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="projects.html"><span>Projects</span></a>
+                                    <ul>
+                                      <li><a href="projects.html#research-projects-national">National projects</a></li>
+										<li><a href="projects.html#research-projects-international">International projects</a></li>
+                                        <li><a href="projects.html#strategic-programmes">Strategic programmes</a></li>
+										<li><a href="projects.html#industry">Industry projects</a></li>
+                                    </ul>
+                                </li>
+                                <li class="active">
+                                    <a href="#"><span>Publications</span></a>
+                                    <ul>
+                                        <li><a href="publications.html#datasets">Datasets</a></li>
+                                        <li><a href="publications.html#editorials">Editorials</a></li>
+                                        <li><a href="publications.html#books">Books</a></li>
+                                        <li><a href="publications.html#book_chapters">Book chapters</a></li>
+                                        <li><a href="publications.html#int_journ_papers">Journal papers</a></li>
+                                        <li><a href="publications.html#int_confs">Conference papers</a></li>
+                                        <li><a href="publications.html#working_notes">Working notes</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>Students</span></a>
+                                    <ul>
+                                        <li><a href="students.html#erasmus">ERASMUS</a></li>
+                                        <li><a href="students.html#bs">B.S. projects</a></li>
+                                        <li><a href="students.html#ms">M.S. projects</a></li>
+                                        <li><a href="students.html#phd">PhD degrees</a></li>
+                                        <li><a href="students.html#postdoc">Postdoc</a></li>
+                                    </ul>
+                                </li>
+                                <!-- /main -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar items -->
+
+                </div>
+            </div>
+            <!-- /left sidebar -->
+
+            <!-- Main content -->
+            <div class="content-wrapper">
+
+                <!-- Page header -->
+                <div class="page-header page-header-default">
+                    <div class="breadcrumb-line">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Publications</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /page header -->
+
+                <!-- Content area -->
+                <div class="content">
+
+                    <!-- About author -->
+                    <div class="panel panel-flat">
+                        <div class="media panel-body no-margin">
+
+                            <div class="media-body">
+                                <img src="images/Bogdan_Ionescu.jpg" style="width: 137px; height: 155px;padding-right: 10px;padding-bottom: 10px;" class="img" align="left">
+                                <h6 class="media-heading text-semibold" style="margin: 0 0 10px;">Prof. Dr.-Ing. Habil. Bogdan IONESCU</h6>
+                                <p style="text-align: justify; margin: 0 0 5px;">Coordinator of the Multimedia Lab, Center for Advanced Research on New Materials, Products and Innovative Processes, University "Politehnica" of Bucharest.
+                                </p>
+
+                                <p style="text-align: justify; margin: 0 0 5px;">Coordinator of the Video Processing Group, The Image Processing and Analysis Lab, Faculty of Electronics, Telecommunications and Information Technology, University "Politehnica" of Bucharest.
+                                </p>
+
+                                <p style="text-align: justify; margin: 0 0 5px;"> Research interests: multimedia/video/image processing and analysis - multimedia content-based retrieval - machine learning for multimedia - multimedia benchmarking and evaluation - multimedia applications (e.g., video surveillance, lifelog, social media, medicine).
+                                </p>
+
+                                <ul class="list-inline list-inline-separate no-margin">
+                                    <li>Contact: <i>bionescu at imag dot pub dot ro</i></li>
+				    <li><a href="http://www.campus.pub.ro/lab7/multimedia/" data-popup="tooltip" data-container="body" title="View profile">Website</a></li>
+                                    <li><a href="https://www.facebook.com/bogdan.ionescu2013/" data-popup="tooltip" data-container="body" title="View profile">Facebook</a></li>
+                                    <li><a href="https://scholar.google.ro/citations?user=11cvotAAAAAJ&amp;hl=en" data-popup="tooltip" data-container="body" title="View profile">Google Scholar</a></li>
+                                    <li><a href="https://www.researchgate.net/profile/Bogdan_Ionescu4" data-popup="tooltip" data-container="body" title="View profile">Research Gate</a></li>
+                                </ul>
+
+                                <ul class="list-inline list-inline-separate no-margin">
+                                    <li>Research Center CAMPUS: <a href="http://www.campus.pub.ro/" data-popup="tooltip" data-container="body" title="http://www.campus.pub.ro">Website</a></li>
+                                    <li><a href="https://facebook.com/upbcampus" data-popup="tooltip" data-container="body" title="View profile">Facebook</a></li>
+                                    <li><a href="https://twitter.com/upbcampus" data-popup="tooltip" data-container="body" title="View profile">Twitter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /about author -->
+
+                    <!-- Post -->
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="content-group-lg">
+
+                                <h3 class="text-semibold mb-5">
+					<a href="#" class="text-default">Datasets: SynPose300 2015</a>
+								</h3>
+                            </div>
+
+                            <div class="content-group-lg">
+                                <h5 class="text-semibold">A 3D Synthetic Dataset for the Evaluation of 3D Human Pose Estimation Techniques</h5>
+                                
+                                    <p style="text-align: justify;">This dataset is designed to support research in the areas of computer vision that foster new technologies for improving the robustness of automatic 3D pose estimation techniques, specifically with respect to variations in (i) anthropometric measurements for male and female genders, (ii) viewing distance and angle of the subject, (iii) performed human actions and (iv) clothing (e.g., large vs tight).
+                                    </p>
+
+                                    <p style="text-align: justify;">The dataset comprises 288 videos, each 5 seconds long (at 24 fps), encoded using Xvid encoder (800x600 resolution, RGB images). The videos were generated using open source software and each is a combination of different human models wearing different clothes, performing different actions, and recorded from different camera positions. The purpose of creating the dataset is to have a simulation of real people performing specific actions, from specific points of view, but in a controllable way with the benefit having a precise Ground Truth. The complexity of the actions varies from easy to hard and each model has different anthropometric measurements. The Ground Truth is provided for each video, which consists of the 3D global coordinates of each joint of the skeleton, the camera position (location and orientation) and its focal length. With these values one can project from real world coordinates to camera coordinates.
+                                    </p>
+
+                                    <p style="text-align: justify;">The dataset was created using 2 open source tools: <a href="http://www.makehuman.org/download_makehuman_102.php">MakeHuman v.1.0.2</a> and <a href="http://download.blender.org/release/">Blender 2.73a</a>. MakeHuman was used to create the human models, including anthropometric measurements for limbs and clothes (the .mhm files for each type of person are provided with the data). Blender was used to animate the models previously created, to create the final video and the Ground Truth. The tool allows for each action to tune the distance from the camera to the subject and the rotation angles of the camera (the .blend files for each video, containing all the data and parameters necessary to render the videos, are provided with the data).
+                                    </p>
+                                
+                            </div>
+
+                            <div class="content-group-lg">
+                                <h5 class="text-semibold">Download the dataset:</h5>
+                                    <p style="text-align: justify;">To download the dataset, please send us the scanned signed data license agreement form 
+                                        (<a href="index_files/pub/SynPose300LicenceAgreement.pdf">click here to download</a>). Upon the receipt of this form, we will provide you with a link to download the data.
+                                    </p>
+                            </div>
+
+
+                            <div class="content-group-lg">
+                                <h5 class="text-semibold">Acknowledgements:</h5>
+                                    <p style="text-align: justify;">Bogdan Boteanu, University "Politehnica" of Bucharest, Romania (bboteanu at alpha.imag.pub.ro), Nikolaos Sarafianos, Computational Biomedicine Lab, Department of Computer Science University of Houston, USA (nsarafianos at uh.edu), Bogdan Ionescu, University "Politehnica" of Bucharest, Romania (bionescu at alpha.imag.pub.ro), Ioannis A. Kakadiaris, Computational Biomedicine Lab, Department of Computer Science University of Houston, USA (ikakadia at central.uh.edu).
+                                    </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- /post -->
+
+                    <!-- Mobile Navbar -->
+                    <div class="navbar navbar-default navbar-fixed-bottom visible-xs-block">
+                        <ul class="nav navbar-nav no-border visible-xs-block">
+                            <li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second"><i class="icon-circle-up2"><br>Menu</i></a></li>
+                        </ul>
+
+                        <div class="navbar-collapse collapse" id="navbar-second">
+                            <div class="navbar-right">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="index.html">Curriculum Vitae</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <span class="visible-xs-inline-block">Courses</span>
+                                            <span class="caret"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a href="courses.html#c_language">Computer Programming Fundamentals: C Language</a></li>
+                                            <li><a href="courses.html#sda">Data Structures and Algorithms in C</a></li>
+                                            <li><a href="courses.html#tapai">Advanced Image Processing and Analysing</a></li>
+                                            <li><a href="courses.html#apv">Video Analysis and Processing - Video Indexing</a></li>
+                                            <li><a href="courses.html#tacai">Data Analysis and Machine Learning</a></li>
+                                            <li><a href="courses.html#cg">Geometric Camera Calibration</a></li>
+                                            <li><a href="courses.html#pcdpi">How to Write a Consistent Research Report - Quick Guide</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                         <a href="projects.html" class="dropdown-toggle" data-toggle="dropdown">
+                                            <span class="visible-xs-inline-block">Projects</span>
+                                            <span class="caret"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="projects.html#research-projects-national">National projects</a></li>
+										<li><a href="projects.html#research-projects-international">International projects</a></li>
+                                        <li><a href="projects.html#strategic-programmes">Strategic programmes</a></li>
+										<li><a href="projects.html#industry">Industry projects</a></li>
+                                        </ul>
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <span class="visible-xs-inline-block">Publications</span>
+                                            <span class="caret"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a href="publications.html#datasets">Datasets</a></li>
+                                            <li><a href="publications.html#editorials">Editorials</a></li>
+                                            <li><a href="publications.html#books">Books</a></li>
+                                            <li><a href="publications.html#book_chapters">Book chapters</a></li>
+                                            <li><a href="publications.html#int_journ_papers">Journal papers</a></li>
+                                            <li><a href="publications.html#int_confs">Conference papers</a></li>
+                                            <li><a href="publications.html#working_notes">Working notes</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <span class="visible-xs-inline-block">Students</span>
+                                            <span class="caret"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a href="students.html#erasmus">ERASMUS</a></li>
+                                        <li><a href="students.html#bs">B.S. projects</a></li>
+                                        <li><a href="students.html#ms">M.S. projects</a></li>
+                                        <li><a href="students.html#phd">PhD degrees</a></li>
+                                        <li><a href="students.html#postdoc">Postdoc</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--/mobile navbar -->
+
+                    <!-- Footer -->
+                    <div class="footer text-muted">
+                        &copy; 2018. <a href="#"></a><a href="#" target="_blank">Bogdan Ionescu</a>
+                    </div>
+                    <!-- /Footer -->
+
+                </div>
+                <!-- /content area -->
+
+            </div>
+            <!-- /main content -->
+
+        </div>
+        <!-- /page content -->
+
+    </div>
+    <!-- /page container -->
+
+</body>
+
+
+<!-- Mirrored from campus.pub.ro/lab7/bionescu/SynPose300.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jun 2020 19:06:41 GMT -->
+</html>
