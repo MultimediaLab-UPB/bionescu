@@ -64,9 +64,18 @@
             left: -1.4em;
             text-indent: -1em;
         }
-
     </style>
     <!--/List numbering formatter-->
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $("#static-data").load("static.html");
+        });
+    </script>
 </head>
 
 <body class="layout-boxed" style="letter-spacing: 1px">
@@ -161,41 +170,7 @@
 
                 <!-- Content area -->
                 <div class="content">
-
-                     <!-- About author -->
-                    <div class="panel panel-flat">
-                        <div class="media panel-body no-margin">
-
-                            <div class="media-body">
-                                <img src="images/Bogdan_Ionescu.jpg" style="width: 137px; height: 155px;padding-right: 10px;padding-bottom: 10px;" class="img" align="left">
-                                <h6 class="media-heading text-semibold" style="margin: 0 0 10px;">Prof. Dr.-Ing. Habil. Bogdan IONESCU</h6>
-                                <p style="text-align: justify; margin: 0 0 5px;">Coordinator of the Multimedia Lab, Center for Advanced Research on New Materials, Products and Innovative Processes, University "Politehnica" of Bucharest.
-                                </p>
-
-                                <p style="text-align: justify; margin: 0 0 5px;">Coordinator of the Video Processing Group, The Image Processing and Analysis Lab, Faculty of Electronics, Telecommunications and Information Technology, University "Politehnica" of Bucharest.
-                                </p>
-
-                                <p style="text-align: justify; margin: 0 0 5px;"> Research interests: multimedia/video/image processing and analysis - multimedia content-based retrieval - machine learning for multimedia - multimedia benchmarking and evaluation - multimedia applications (e.g., video surveillance, lifelog, social media, medicine).
-                                </p>
-
-                                <ul class="list-inline list-inline-separate no-margin">
-                                    <li>Contact: <i>bionescu at imag dot pub dot ro</i></li>
-				    <li><a href="http://www.campus.pub.ro/lab7/multimedia/" data-popup="tooltip" data-container="body" title="View profile">Website</a></li>
-                                    <li><a href="https://www.facebook.com/bogdan.ionescu2013/" data-popup="tooltip" data-container="body" title="View profile">Facebook</a></li>
-                                    <li><a href="https://scholar.google.ro/citations?user=11cvotAAAAAJ&amp;hl=en" data-popup="tooltip" data-container="body" title="View profile">Google Scholar</a></li>
-                                    <li><a href="https://www.researchgate.net/profile/Bogdan_Ionescu4" data-popup="tooltip" data-container="body" title="View profile">Research Gate</a></li>
-                                    <li><a href="https://www.linkedin.com/in/bogdan-ionescu-7aa89315b" data-popup="tooltip" data-container="body" title="View profile">Linkedin</a></li>
-                                </ul>
-
-                                <ul class="list-inline list-inline-separate no-margin">
-                                    <li>Research Center CAMPUS: <a href="http://www.campus.pub.ro/" data-popup="tooltip" data-container="body" title="http://www.campus.pub.ro">Website</a></li>
-                                    <li><a href="https://facebook.com/upbcampus" data-popup="tooltip" data-container="body" title="View profile">Facebook</a></li>
-                                    <li><a href="https://twitter.com/upbcampus" data-popup="tooltip" data-container="body" title="View profile">Twitter</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /about author -->
+                    <div id="static-data"></div>
 
                     <!-- Post -->
                     <div class="panel">
@@ -318,19 +293,19 @@
                                 <ol class="list no-margin-bottom">
                                     <li style="text-align: justify;">B. Ionescu, H. Müller, R. Péteri. D.-T. Dang-Nguyen, L. Zhou, L. Piras, M. Riegler, P. Halvorsen, M.-T. Tran, M. Lux, C. Gurrin, J. Chamberlain, A. Clark, A. Campello, A.G.S. de Herrera, A.B. Abacha, V. Datla, S.A. Hasan,  J. Liu, D. Demner-Fushman, O. Pelka, C.M. Friedrich, Y.D. Cid, S. Kozlovski, V. Liauchuk, V. Kovalev, R. Berari, P. Brie, D. Fichou, M. Dogariu, L.-D. Ștefan, M.G. Constantin, "<em>ImageCLEF 2020: Multimedia Retrieval in Lifelogging, Medical, Nature, and Internet Applications</em>", in Springer Lecture Notes in Computer Science, 12036, pp. 533-541, ISBN: 978-3-030-45441-8, DOI: https://doi.org/10.1007/978-3-030-45442-5_69, ECIR 2020 Proceedings, April 14-17, Lisbon, Portugal, 2020 (9 pages, <a href="index_files/pub/ECIR_2020_ImageCLEF.pdf">download draft PDF</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-030-45442-5_69">link to Springer</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">B. Ionescu, H. Müller, R. Péteri, Y.D. Cid, V. Liauchuk, V. Kovalev, D. Klimuk, A. Tarasau, A.B. Abacha, S.A. Hasan, V. Datla, J. Liu, D. Demmer-Fushman, D.T.D. Nguyen, L. Piras, M. Riegler, M.-T. Tran, M. Lux, C. Gurrin, O. Pelka, C.M. Friedrich, A.G.S. De Herrera, N. Garcia, E. Kavallieratou, C.R. del Blanco, C. Cuevas, N. Vasillopoulos, K. Karampidis, J. Chamberlain, A. Clark, and A. Campello, "<em>ImageCLEF 2019: Multimedia Retrieval in Medicine, Lifelogging, Security and Nature</em>", in Springer Lecture Notes in Computer Science, 11696, pp. 358-386, ISBN: 978-3-030-28576-0, DOI: https://doi.org/10.1007/978-3-030-28577-7_28, CLEF 2019 Proceedings, September 9-12, Lugano, Switzerland, 2019 (25 pages, <a href="index_files/pub/ImageCLEF_2019.pdf">download draft PDF</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-030-28577-7_28">link to Springer</a>);
                                     </li>
-																		
+
 									<li style="text-align: justify;">B. Ionescu, H. Müller, R. Péteri. D.-T. Dang-Nguyen, L. Piras, M. Riegler, M.-T. Tran, M. Lux, C. Gurrin, Y.D. Cid, V. Liauchuk, V. Kovalev, A.B. Abacha, S.A. Hasan, V. Datla, J. Liu, D. Demner-Fushman, O. Pelka, C.M. Friedrich, J. Chamberlain, A. Clark, A.G.S. de Herrera, N. Garcia, E. Kavallieratou, C.R. del Blanco, C.C. Rodríguez, N. Vasillopoulos, K. Karampidis, "<em>ImageCLEF 2019: Multimedia Retrieval in Lifelogging, Medical, Nature, and Security Applications</em>", in Springer Lecture Notes in Computer Science, 11438, pp. 301-308, ISBN: 978-3-030-15718-0, DOI: https://doi.org/10.1007/978-3-030-15719-7_40, ECIR 2019 Proceedings, April 14-18, Cologne, Germany, 2019 (8 pages, <a href="index_files/pub/ECIR2019.pdf">download draft PDF</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-030-15719-7_40">link to Springer</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">G. Ramírez, E. Villatoro, B. Ionescu, H.J. Escalante, S. Escalera, M. Larson, H. Müller, I. Guyon, "<em>Overview of the Multimedia Information Processing for Personality and Social Networks Analysis Contest</em>", in Springer Lecture Notes in Computer Science, 11188, pp. 127-139, ISBN: 978-3-030-05791-6, DOI: https://doi.org/10.1007/978-3-030-05792-3_12, ICPR 2018 Proceedings, August 20-24, Beijing, China, 2018 (12 pages, <a href="index_files/pub/overview-multimedia-information.pdf">download draft PDF</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-030-05792-3_12">link to Springer</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">B. Ionescu, H. Müller, M. Villegas, A.G.S. De Herrera, C. Eickhoff, V. Andrearczyk, Y.D. Cid, V. Liauchuk, V. Kovalev, S.A. Hasan, Y. Ling, O. Farri, J. Liu, M. Lungren, D.T.D. Nguyen, L. Piras, M. Riegler, L. Zhou, M. Lux and C. Gurrin, "<em>Overview of ImageCLEF 2018: Challenges, Datasets and Evaluation</em>", in Springer Lecture Notes in Computer Science, 11018, pp. 309-334, ISBN: 978-3-319-98931-0, DOI: https://doi.org/10.1007/978-3-319-98932-7_28, CLEF 2018 Proceedings, September 10-14, Avignon, France, 2018 (25 pages, <a href="index_files/pub/CLEF_2018_paper_188.pdf">download draft PDF</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-98932-7_28">link to Springer</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">C C.-H. Demarty, M. Sjöberg, M.-G. Constantin, N.Q.K. Duong, B. Ionescu, T.-T. Do, H. Wang, "<em>Predicting Interestingness of Visual Content</em>", in Visual Content Indexing and Retrieval with Psycho-Visual Models, pp. 233-265, Springer Multimedia Systems and Applications, ISBN: 978-3-319-57686-2, DOI: https://doi.org/10.1007/978-3-319-57687-9_10, Eds. J. Benois-Pineau, P. Le Callet, 2017 (33 pages, <a href="https://hal.archives-ouvertes.fr/hal-01497425/document">download draft PDF</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-57687-9_10">link to Springer</a>);
                                     </li>
 
@@ -378,16 +353,16 @@
                                 <ol class="list no-margin-bottom">
                                     <li style="text-align: justify;">M.G. Constantin, L.-D. Ștefan, B. Ionescu, C.-H. Demarty, M. Sjoberg, M. Schedl, G. Gravier, "<em>Affect in Multimedia: Benchmarking Violent Scenes Detection</em>", IEEE Transactions on Affective Computing, DOI: 10.1109/TAFFC.2020.2986969, ISI Impact Factor 6.3, 2020 (20 pages, <a href="index_files/2018_VSD_Review-draft.pdf">download draft PDF</a>, <a href="https://ieeexplore.ieee.org/document/9064936">link to IEEE</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">B. Ionescu, M. Rohm, B. Boteanu, A. Lucian Gînscă, M. Lupu, H. Müller, "<em>Benchmarking Image Retrieval Diversification Techniques for Social Media</em>", IEEE Transactions on Multimedia, DOI: 10.1109/TMM.2020.2986579, ISI Impact Factor 5.5, 2020 (15 pages, <a href="index_files/2019_TMM_Diversity-draft.pdf">download draft PDF</a>, <a href="https://ieeexplore.ieee.org/document/9064608">link to IEEE</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">Y. Deldjoo, M.F. Dacrema, M.G. Constantin, H. Eghbal-Zadeh, S. Cereda, M. Schedl, B. Ionescu, P. Cremonesi, "<em>Movie Genome: Alleviating New Item Cold Start in Movie Recommendation</em>", Springer User Modeling and User-Adapted Interaction, pp. 1-53, ISSN: 0924-1868, DOI: https://doi.org/10.1007/s11257-019-09221-y, ISI Impact Factor 3.4, 2019 (53 pages, <a href="index_files/pub/UMUAI____Deldjoo_MovieGenome.pdf">download draft PDF</a>, <a href="https://link.springer.com/article/10.1007/s11257-019-09221-y">link to Springer</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">M.G. Constantin, M. Redi, G. Zen, B. Ionescu, "<em>Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates</em>", ACM Computing Surveys, 52(2), DOI: https://doi.org/10.1145/3301299, ISI Impact Factor 6.1, 2019 (44 pages, <a href="index_files/pub/2018_ACM_CSUR-draft.pdf">download draft PDF</a>, <a href="https://dl.acm.org/citation.cfm?id=3301299">link to ACM</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">I.C. Duță, J.R.R. Uijlings, B. Ionescu, K. Aizawa, A.G. Hauptmann, N. Sebe, "<em>Efficient Human Action Recognition using Histograms of Motion Gradients and VLAD with Descriptor Shape Information</em>", Springer Multimedia Tools and Applications, 76(21), pp. 22445-22472, ISSN: 1380-7501, DOI: https://doi.org/10.1007/s11042-017-4795-6, WOS: 000412748200030, ISI Impact Factor 2.1, 2017 (28 pages, <a href="https://link.springer.com/article/10.1007/s11042-017-4795-6">link to Springer</a>);
                                     </li>
 
@@ -478,37 +453,37 @@
                                 <a class="anchor" id="int_confs"></a>
                                 <h5 class="text-semibold">International conference papers:</h5>
                                 <ol class="list no-margin-bottom">
-								
+
 								    <li style="text-align: justify;">L.-D. Ștefan, M.G. Constantin, B. Ionescu, "<em>System Fusion with Deep Ensembles</em>", ACM International Conference on Multimedia Retrieval - ICMR, October 26-29, Dublin, Ireland, 2020 (5 pages, <a href="index_files/pub/icmrsp03-stefanA.pdf">download draft PDF</a>, <a href="#">link to ACM</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">A.-M. Tăuțan, A.C. Rossi, R. de Francisco, B. Ionescu, "<em>Automatic Sleep Stage Detection: A Study on the Influence of Various PSG Input Signals</em>", IEEE International Conference on Engineering in Medicine and Biology - EMBC, July 20-24, 2020, Montréal, Québec, Canada, 2020 (5 pages, <a href="index_files/pub/EMBC2020sleep.pdf">download draft PDF</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">A.C. Jitaru, Ș. Abdulamit, B. Ionescu, "<em>LRRo: A Lip Reading Data Set for the Under-resourced Romanian Language</em>", ACM Multimedia Systems - MMSys, June 8-11, Istanbul, Turkey, 2020 (6 pages, <a href="index_files/pub/MMSys2020Lip.pdf">download draft PDF</a>, <a href="#">link to ACM</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">A.-M. Tăuțan, A.C. Rossi, R. de Francisco, B. Ionescu, "<em>Automatic Sleep Stage Detection using a Single Channel Frontal EEG</em>", IEEE International Conference on E-Health and Bioengineering - EHB, November 21-23, Iași, Romania, 2019 (4 pages, <a href="index_files/pub/EHB2019_AutomaticSleepStageDetection_submission_14102019.pdf">download draft PDF</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">A.-G. Andrei, A.-M. Tăuțan, B. Ionescu, "<em>Parkinson’s Disease Detection from Gait Patterns</em>", IEEE International Conference on E-Health and Bioengineering - EHB, November 21-23, Iași, Romania, 2019 (4 pages, <a href="index_files/pub/EHB2019_Parkinson_final_14102019.pdf">download draft PDF</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">A.-M. Tăuțan, M. Dogariu, B. Ionescu, "<em>Detection of Epileptic Seizures using Unsupervised Learning Techniques for Feature Extraction</em>", IEEE International Conference on Engineering in Medicine and Biology - EMBC, July 23-27, Berlin, Germany, 2019 (5 pages, <a href="index_files/pub/EMBC2019_final.pdf">download draft PDF</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">Y. Deldjoo, M.G. Constantin, H. Eghbal-Zadeh, B. Ionescu, M. Schedl, P. Cremonesi, "<em>Audio-visual Encoding of Multimedia Content for Enhancing Movie Recommendations</em>", ACM Conference on Recommender Systems - RecSys, ISBN: 978-1-4503-5901-6, DOI: 10.1145/3240323.3240407, October 2-7, Vancouver, Canada, 2018 (5 pages, <a href="index_files/pub/RecSys_2018.pdf">download draft PDF</a>, <a href="https://dl.acm.org/citation.cfm?id=3240407">link to ACM</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">C.A. Mitrea, Ș. Carată, M.G. Constantin, L.-D. Ștefan, M. Ghenescu, B. Ionescu, "<em>Little-big Deep Neural Networks for Embedded Video Surveillance</em>", International Conference on Communications - COMM, 1st International Workshop on Research and Innovation for Secure Societies - RISS, ISSN: 1550-3607, DOI: 10.1109/ICComm.2018.8484765, WOS: 000449526000092, June 14-16, Bucharest, Romania, 2018 (4 pages, <a href="https://ieeexplore.ieee.org/document/8484765">link to IEEE</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">M. Rohm, B. Ionescu, A.L. Gînscă, R.L.T. Santos, H. Müller, "<em>SubDiv17: A Dataset for Investigating Subjectivity in the Visual Diversification of Image Search Results</em>", ACM Multimedia Systems - MMSys, June 12-15, Amsterdam, Netherlands, 2018 (6 pages, <a href="index_files/pub/MMSys18_SubDiv17CR.pdf">download draft PDF</a>, <a href="#">link to ACM</a>);
                                     </li>
-									
+
                                     <li style="text-align: justify;">Y. Deldjoo, M.G. Constantin, M. Schedl, B. Ionescu, P. Cremonesi, "<em>MMTF-14K: A Multifaceted Movie Trailer Dataset for Recommendation and Retrieval</em>", ACM Multimedia Systems - MMSys, June 12-15, Amsterdam, Netherlands, 2018 (6 pages, <a href="index_files/pub/mmsys2018-final2.pdf">download draft PDF</a>, <a href="#">link to ACM</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">I.C. Duță, B. Ionescu, K. Aizawa, N. Sebe, "<em>Simple, Efficient and Effective Encodings of Local Deep Features for Video Action Recognition</em>", ACM International Conference on Multimedia Retrieval – ICMR, ISBN: 978-1-4503-4701-3, DOI: 10.1145/3078971.3078988, June 6-9, Bucharest, Romania, 2017 (8 pages, <a href="index_files/pub/ICMR2017_Duta.pdf">download draft PDF</a>, <a href="https://dl.acm.org/citation.cfm?id=3078988">link to ACM</a>);
                                     </li>
 
@@ -732,13 +707,13 @@
                                 <ol class="list no-margin-bottom">
                                     <li style="text-align: justify;">M.G. Constantin, C. Kang, G. Dinu, F. Dufaux, G. Valenzise, B. Ionescu, "<em>Using Aesthetics and Action Recognition-based Networks for the Prediction of Media Memorability</em>", MediaEval Benchmarking Initiative for Multimedia Evaluation Workshop, ACM International Conference on Multimedia, CEUR-WS, ISSN: 1613-0073, October 27-29, Nice, France, 2019 (3 pages, <a href="#">download PDF</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">M. Dogariu, B. Ionescu, "<em>Multimedia Lab @ ImageCLEF 2019 Lifelog Moment Retrieval Task</em>", ImageCLEF Lifelog Task, CLEF, CEUR-WS, 2380, ISSN: 1613-0073, September 9-12, Lugano, Switzerland, 2019 (10 pages, <a href="http://ceur-ws.org/Vol-2380/paper_149.pdf">download PDF</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">M. Dogariu, B. Ionescu, "<em>Multimedia Lab @ ImageCLEF 2018 Lifelog Moment Retrieval Task</em>", ImageCLEF Lifelog Task, CLEF, CEUR-WS, 2125, ISSN: 1613-0073, September 10-14, Avignion, France, 2018 (13 pages, <a href="http://ceur-ws.org/Vol-2125/paper_148.pdf">download PDF</a>);
                                     </li>
-									
+
 									<li style="text-align: justify;">B. Boteanu, M.G. Constantin, B. Ionescu, "<em>LAPI @ 2017 Retrieving Diverse Social Images Task: A Pseudo-Relevance Feedback Diversification Perspective</em>", MediaEval Benchmarking Initiative for Multimedia Evaluation Workshop, CLEF, CEUR-WS, 1984, ISSN: 1613-0073, September 11-14, Dublin, Ireland, 2017 (3 pages, <a href="http://ceur-ws.org/Vol-1984/Mediaeval_2017_paper_33.pdf">download PDF</a>);
                                     </li>
 
